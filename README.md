@@ -1,6 +1,6 @@
-# Product API
+# REST API Template
 
-Go based Product API built using the Gorilla Toolkit [https://www.gorillatoolkit.org/](https://www.gorillatoolkit.org/)
+You can clone this repo as a template to generate a RESTful API web server in Go using the Gorilla Toolkit [https://www.gorillatoolkit.org/](https://www.gorillatoolkit.org/)
 
 
 ## Documentation
