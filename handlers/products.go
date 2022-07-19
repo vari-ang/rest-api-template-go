@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"dopas-api/data"
+	"product-api/data"
 
 	"github.com/gorilla/mux"
 )

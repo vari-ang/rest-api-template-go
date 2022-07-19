@@ -3,7 +3,7 @@ package handlers
 import (
 	"net/http"
 
-	"dopas-api/data"
+	"product-api/data"
 )
 
 // swagger:route GET /products products listProducts

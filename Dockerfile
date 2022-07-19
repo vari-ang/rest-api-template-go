@@ -1,5 +1,9 @@
 FROM golang:alpine
 
+RUN apk --no-cache add tzdata
+
+RUN cp /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
+
 WORKDIR /app
 
 COPY . .

@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"dopas-api/data"
+	"product-api/data"
 )
 
 // MiddlewareValidateProduct validates the product in the request and calls next if ok

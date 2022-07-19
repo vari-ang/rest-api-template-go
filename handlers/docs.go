@@ -15,7 +15,7 @@
 // swagger:meta
 package handlers
 
-import "dopas-api/data"
+import "product-api/data"
 
 //
 // NOTE: Types defined here are purely for documentation purposes

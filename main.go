@@ -8,15 +8,15 @@ import (
 	"os/signal"
 	"time"
 
-	"dopas-api/data"
-	"dopas-api/handlers"
+	"product-api/data"
+	"product-api/handlers"
 
 	"github.com/go-openapi/runtime/middleware"
 	"github.com/gorilla/mux"
 )
 
 func main() {
-	l := log.New(os.Stdout, "dopas-api", log.LstdFlags)
+	l := log.New(os.Stdout, "product-api ", log.LstdFlags)
 	v := data.NewValidation()
 
 	// create the handlers
